@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- banner -->
+        <div id="banner">
+            <table width="100%" height="130px" border="0">
+                <tr style="width:50%" >
+                    <td rowspan="2"><img src="img/logo.png"></td>
+                    <td style="text-align: right;" colspan="3"><img src="img/icondienthoai.png" style="padding-bottom: 11px" / "><b style="margin-right: 19px">HOT LINE:0186.6868.678</b></td>
+                </tr>
+                <!-- nửa phải -->
+                <tr style="width:50%"style="float: right;">
+                  <td>
+                    <div><button  style="float: right;border-radius:7px;margin-right: -18px;height: 25px;width: 145px; "><img src="img/icon_dk.png" style="margin-bottom: 2px;">Đăng kí thành viên</button></div>
+                </td>
+                <td >
+                  <div><button  style="float: right;border-radius: 7px;height: 25px;width: 97px"><img src="img/icon_thu2.png" style="margin-bottom: 5px"> Tài khoản</button></div>
+                </td>
+                <td>
+                  <div><button  style="float: right;border-radius: 7px;width: 98px;height: 25px;margin-left: -26px;margin-right: 25px"><img src="img/icon_thu3.png" style="margin-bottom: 5px"> Giỏ hàng</button></div>
+                </td>
+                 
+                </tr>
+            </table>
+        </div>
+        <!--  ket thuc banner -->
+        <div id="menu">
+
+            <ul>
+                <li><a href="./index.html"><img src="img/iconhome.png" style="padding-bottom: 5px;"></a></li>
+                <li><a href="#">Hàng Online</a></li><img src="img/phancach.png" style="vertical-align:middle" />
+                <li><a href="#">Hàng hiệu</a></li><img src="img/phancach.png" style="vertical-align:middle" />
+                <li><a href="#">Hàng bán chạy</a></li><img src="img/phancach.png" style="vertical-align:middle" />
+                <li><a href="#">FAQs</a></li><img src="img/phancach.png" style="vertical-align:middle" />
+                <li><a href="#">Liên hệ</a></li><img src="img/phancach.png" style="vertical-align:middle" />
+                <li><a href="#">Đặt hàng</a></li>
+                
+                    <!-- TÌM KIẾM -->
+                    
+                  <input style="border-radius: 7px;width: 5.22cm; vertical-align:4px;margin-left: 57px;padding-bottom: 1px" type="text" placeholder=" tìm kiếm..." name="Search"><img src="img/iconsearch.png" style="vertical-align:-4px;margin-left: -20px;margin-bottom: 1px;" />
+               
+            </ul>
+        </div>
+        <!-- ketthucmenu -->
+        <div id="noidung" style="width:1000px;height:550px;">
+            <div id="nd1">
+                <table width="100%" height="288px" border="0">
+                    <tr>
+                        <td rowspan="3" width="60%" height="299px">
+                            <div class="w3-content w3-display-container">
+                              <img class="mySlides" src="img/slide1.png" style="width:100%">
+                              <img class="mySlides" src="img/slide22.png" style="width:100%">
+                              <img class="mySlides" src="img/slide33.png" style="width:100%">
+
+                              <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                              <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                            </div>
+
+                            <script>
+                            var slideIndex = 1;
+                            showDivs(slideIndex);
+
+                            function plusDivs(n) {
+                              showDivs(slideIndex += n);
+                            }
+
+                            function showDivs(n) {
+                              var i;
+                              var x = document.getElementsByClassName("mySlides");
+                              if (n > x.length) {slideIndex = 1}    
+                              if (n < 1) {slideIndex = x.length}
+                              for (i = 0; i < x.length; i++) {
+                                 x[i].style.display = "none";  
+                              }
+                              x[slideIndex-1].style.display = "block";  
+                            }
+                            </script>
+                        </td>
+                        <div id="bgim">
+                            <td rowspan="2" style="height:50%;background-image: url(img/bg_33.png);"><img src="img/tivi.png"></td>
+                            <td style="text-align: center;background-image: url(img/bg_33.png);">
+                                <p><b style="font-size: 11px !important;"><center>QUÀ TẶNG DÀNH CHO KHÁCH HÀNG</center></B></p>
+                                <p style="color: red;">ĐẶT MUA ONLINE</P>
+                                <P>TỪ 01/03/2013-30/03/2013</P>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td style="margin: 0;padding-bottom: 10px;margin-left: 10px;padding-left: 33px;background-image: url(img/bg_33.png);padding-top: 2px;">
+                            <img src="img/chuan3.png">
+                        </td>
+                    </tr>
+                    </div>
+                    <tr>
+                        <div id="dobong">
+                            <td colspan="2" style="background-image: url(img/bg_33.png);padding-left: 10px"> <img src="img/b3.png"></td>
+                        </div>
+                    </tr>
+                </table>
+            </div>
+            <div id="noidungduoi">
+                <table width="100%" height="110" border="0">
+                    <tr>
+                        <td colspan="2">
+                            <div id="menu_duoi">
+                                <ul>
+                                    <li style="background: url(img/congty.png); width: 83px;text-align: center;padding-top: 7px"><a href="#">CÔNG TY</a></li>
+                                    <li style="background: url(img/huongdanmuaonline.png);width: 174px;text-align: center;padding-top: 7px; margin-left: -3px"><a href="#">HƯỚNG DẪN MUA ONLINE</a></li>
+                                </ul>
+                            </div>
+                        </td>
+                        <td width="32%" style="text-align: center;"><b>HÀNG </b><span style="color: red;"><b>MỚI VỀ</b></span></td>
+                        <td colspan="2"> </td>
+                    </tr>
+                    <tr>
+                        <td width="10%" rowspan="2">
+                            <div>
+                                <img src="img/aboutus.png">
+                            </div>
+                        </td>
+                        <td width="26%" rowspan="2">
+                            <div id="gioithieu2">
+                                <ul>
+                                    <li><a href="#">Giới thiệu công ty</a></li>
+                                    <li><a href="#">Phương châm bán hàng</a></li>
+                                    <li><a href="#">Cơ hội nghề nghiệp</a></li>
+                                    <li><a href="#">Hệ thống chi nhánh</a></li>
+                                </ul>
+                            </div>
+                        </td>
+                        <td rowspan="2"><img src="img/slidebe.png"></td>
+                        <td width="6%">
+                            <div id="hc1">
+                                <img src="img/huanchuong.png" style="margin-left: 12px">
+                            </div>
+                        </td>
+                        <td width="26%" style="text-align: center;">TOP THƯƠNG HIỆU VÀNG BẠN ĐỌC BÌNH CHỌN 5 NĂM</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div id="hc2">
+                                <img src="img/huanchuong2.png">
+                            </div>
+                            <div></div>
+                        </td>
+                        <td>THƯƠNG HIỆU VIỆT ĐƯỢC YÊU THÍCH NHẤT</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+          <!-- menucuoicung -->
+            <div id="menu_end">
+              <ul>
+                  <li><a href="#">HÀNG ONLINE</a></li><img src="img/phancach.png" style="vertical-align:middle" />
+                  <li><a href="#">HÀNG HIỆU</a></li><img src="img/phancach.png" style="vertical-align:middle" />
+                  <li><a href="#">HÀNG BÁN CHẠY</a></li><img src="img/phancach.png" style="vertical-align:middle" />
+                  <li><a href="#">FAQS</a></li><img src="img/phancach.png" style="vertical-align:middle" />
+                  <li><a href="#">LIÊN HỆ</a></li><img src="img/phancach.png" style="vertical-align:middle" />
+                  <li><a href="#">ĐẶT HÀNG</a></li>
+                  <!-- <li><img src="img/iconsearch.png" style="vertical-align:middle" /> </li> -->
+              </ul>
+        </div>
+          <!-- ketthucmenucuoicung -->
+
+          <!-- footer -->
+            <div id="footer">
+              Bản quyền thuộc về giảng viên thanh thúy 2013
+            </div>
+
+          <!-- ketthucfooter -->
+    </div>
+    
+</body>
+
+</html>
