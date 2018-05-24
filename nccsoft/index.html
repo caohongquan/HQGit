@@ -5,6 +5,7 @@
     <title></title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
@@ -38,7 +39,7 @@
             </table>
         </div>
         <!--  ket thuc banner -->
-        <div id="menu">
+        <div class="topnav" id="myTopnav">
 
             <ul>
                 <li><a href="./index.html"><img src="img/iconhome.png" style="padding-bottom: 5px;"></a></li>
@@ -48,7 +49,31 @@
                 <li><a href="#">FAQs</a></li><img src="img/phancach.png" style="vertical-align:middle" />
                 <li><a href="#">Liên hệ</a></li><img src="img/phancach.png" style="vertical-align:middle" />
                 <li><a href="#">Đặt hàng</a></li>
-                
+              <!--   <li>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </li> -->
+                  
+
+                <!-- Phần thu nhỏ menu -->
+
+               <!--  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>    
+ -->
+                <!-- end -->
+                <script>
+                    function myFunction() {
+                        var x = document.getElementById("myTopnav");
+                        if (x.className === "topnav") {
+                            x.className += " responsive";
+                        } else {
+                            x.className = "topnav";
+                        }
+                    }
+                    </script>
+                                    
                     <!-- TÌM KIẾM -->
                     
                   <input style="border-radius: 7px;width: 5.22cm; vertical-align:4px;margin-left: 57px;padding-bottom: 1px" type="text" placeholder=" tìm kiếm..." name="Search"><img src="img/iconsearch.png" style="vertical-align:-4px;margin-left: -20px;margin-bottom: 1px;" />
